@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/components/common/CustomLink": "pages/components/common/CustomLink.js",
-  "/api/hello": "pages/api/hello.js",
-  "/components/common/Navigation": "pages/components/common/Navigation.js",
   "/": "pages/index.js"
 }

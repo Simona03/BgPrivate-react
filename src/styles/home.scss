@@ -1,4 +1,4 @@
-$base_text_color: #686767;
-$base_elements_color: #056839;
-$base_param_color: #000000;
-$base_border_background-color:#F6F8CE;
+@import "constants";
+p {
+  font-family: $base_font_text;
+}

@@ -1,0 +1,142 @@
+/* For devices with a width up to 767px */
+@media only screen and (max-width: 767px) {
+  .header-container {
+    height: 50%;
+    padding: 2.3rem 2.5rem 13.7rem 2.5rem;
+  }
+
+  .logo {
+    margin-right: 5%;
+    width: 10rem;
+    height: 7rem;
+  }
+
+  .navigation-bnt {
+    padding-right: 20px;
+    font-size: 1.2rem;
+  }
+
+  .navigation {
+    margin-bottom: 5rem;
+    flex-direction: column;
+  }
+
+  .header-container {
+    padding: 2rem 2rem 15rem 2rem;
+    height: 50%;
+  }
+
+
+}
+
+/* For devices with a width between 768px and 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .home-page {
+    height: 60rem;
+  }
+
+  .header-container {
+    height: 60%;
+    padding: 3.5rem 4.5rem 14.5rem 4.5rem;
+  }
+
+  .logo {
+    margin-right: 10%;
+    width: 12rem;
+    height: 8.5rem;
+  }
+
+  .navigation-bnt {
+    padding-right: 30px;
+    font-size: 1.4rem;
+  }
+
+  .navigation {
+    margin-bottom: 6rem;
+  }
+
+}
+
+/* For devices with a width between 992px and 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .navigation-bnt {
+    margin-right: 40px;
+    font-size: 1.6rem;
+  }
+
+  .navigation {
+    margin-bottom: 8.4rem;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+  }
+
+  .navigation-bnt.active::after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .navigation-bnt.active:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
+
+/* For devices with a width of 1200px and above */
+@media only screen and (min-width: 1200px) {
+  .home-page {
+    height: 100rem;
+  }
+
+  .header-container {
+    height: 80%;
+    padding: 5.8rem 10rem 34.6rem 10rem;
+  }
+
+  .navigation {
+    margin-bottom: 8.4rem;
+  }
+
+  .logo {
+    margin-right: 18rem;
+    width: 14.6rem;
+    height: 10rem;
+  }
+
+  .navigation-bnt {
+    padding-right: 40px;
+    font-size: 1.6rem;
+  }
+
+  .navigation {
+    margin-bottom: 8.4rem;
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+  }
+
+  .navigation-bnt.active::after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .navigation-bnt.active:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
