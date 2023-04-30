@@ -9,7 +9,7 @@ const Navigation = (props: any) => {
 
     useEffect(() => {
             if (router.pathname === router.pathname) {
-                console.log(router.pathname)
+                // console.log(router.pathname)
             }
         }, [router.pathname]
     )
@@ -17,8 +17,7 @@ const Navigation = (props: any) => {
     return (
         <nav className={"navigation"}>
             <CustomLink href={routes.home}>Home</CustomLink>
-            <CustomLink className={"split"} href={routes.signup}>Signup</CustomLink>
-            <CustomLink className={"split"} href={routes.login}>Login</CustomLink>
+            <CustomLink href={routes.aboutUs}>About us</CustomLink>
         </nav>
     );
 
