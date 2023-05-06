@@ -2,3 +2,146 @@
 p {
   font-family: $base_font_text;
 }
+.button-circle {
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  padding: 10px;
+}
+.transfers-btn {
+  margin-top: -8%;
+  box-sizing: border-box;
+  padding: 0.035rem 2rem 0rem 1.1rem;
+  width: calc(100% - 30rem);
+  display: flex;
+  align-items: center;
+  background-color: rgba(217, 217, 217, 0.5);
+  border-radius: 2.5rem;
+}
+.transfers {
+  margin-top: 1.25rem;
+  margin-left: 12px;
+  padding-top: 2.4px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1;
+  color: #ffffff;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.home-page {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.home-page .header-container {
+  width: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.banner-container {
+  box-sizing: border-box;
+  width: 65rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 13.5rem;
+  top: 48.3rem;
+  background-color: #ffffff;
+  border-radius: 0.2rem 0.2rem 0 0;
+  box-shadow: 0 2.2rem 4.9rem rgba(0, 0, 0, 0.1000000015), 0 8.9rem 8.9rem rgba(0, 0, 0, 0.0900000036), 0 20.1rem 12.1rem rgba(0, 0, 0, 0.0500000007), 0 35.8rem 14.3rem rgba(0, 0, 0, 0.0099999998), 0 55.9rem 15.7rem rgba(0, 0, 0, 0);
+}
+.banner-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.experience {
+  margin-right: 5.7rem;
+  height: 48%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.sub-experience {
+  margin: 0rem 1.5rem 0rem 4rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3675;
+  color: #056839;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.description {
+  margin: 0.4rem 0rem 0rem 0.1rem;
+  max-width: 11.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.1625;
+  color: #686767;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.destination {
+  margin-right: 5rem;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.sub-destination {
+  margin: 0rem 1.5rem 0rem -4rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  color: #056839;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.destination-collab {
+  max-width: 12.7rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  color: #686767;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.tourist-dest {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.sub-tourist {
+  margin: 0rem 1.5rem 0rem -2rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  color: #056839;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tourist-destination {
+  max-width: 12.7rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  color: #686767;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
