@@ -1,7 +1,5 @@
 @import "constants";
-p {
-  font-family: $base_font_text;
-}
+
 .button-circle {
   background-color: #FFFFFF;
   border-radius: 50%;
@@ -17,6 +15,7 @@ p {
   background-color: rgba(217, 217, 217, 0.5);
   border-radius: 2.5rem;
 }
+
 .transfers {
   margin-top: 1.25rem;
   margin-left: 12px;
@@ -55,7 +54,7 @@ p {
   width: 65rem;
   height: 8.5rem;
   position: absolute;
-  left: 13.5rem;
+  left: 14rem;
   top: 48.3rem;
   background-color: #ffffff;
   border-radius: 0.2rem 0.2rem 0 0;

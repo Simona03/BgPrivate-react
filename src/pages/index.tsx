@@ -1,4 +1,4 @@
-import Navigation from "@/pages/components/common/Navigation";
+import Navigation from "./components/common/Navigation";
 import { FaChevronRight } from "react-icons/fa";
 export default function Home() {
   return (

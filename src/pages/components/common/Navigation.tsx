@@ -1,7 +1,7 @@
 import {NextRouter, useRouter} from "next/router";
 import {useEffect} from "react";
-import CustomLink from "@/pages/components/common/CustomLink";
-import routes from "@/config/routes"
+import CustomLink from "./CustomLink";
+import routes from "../../../config/routes"
 
 const Navigation = (props: any) => {
     const router: NextRouter = useRouter();
