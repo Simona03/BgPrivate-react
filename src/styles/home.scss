@@ -1,12 +1,15 @@
 @import "constants";
+
 p {
   font-family: $base_font_text;
 }
+
 .button-circle {
   background-color: #FFFFFF;
   border-radius: 50%;
   padding: 10px;
 }
+
 .transfers-btn {
   margin-top: -8%;
   box-sizing: border-box;
@@ -17,6 +20,7 @@ p {
   background-color: rgba(217, 217, 217, 0.5);
   border-radius: 2.5rem;
 }
+
 .transfers {
   margin-top: 1.25rem;
   margin-left: 12px;
@@ -28,6 +32,7 @@ p {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 .main-container {
   width: 100%;
   overflow: hidden;
@@ -36,6 +41,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+
 .home-page {
   width: 100%;
   overflow: hidden;
@@ -45,28 +51,32 @@ p {
   flex-direction: column;
   background-color: #ffffff;
 }
+
 .home-page .header-container {
   width: 100%;
   position: relative;
   flex-shrink: 0;
 }
+
 .banner-container {
   box-sizing: border-box;
   width: 65rem;
   height: 8.5rem;
   position: absolute;
-  left: 13.5rem;
+  left: 14rem;
   top: 48.3rem;
   background-color: #ffffff;
   border-radius: 0.2rem 0.2rem 0 0;
   box-shadow: 0 2.2rem 4.9rem rgba(0, 0, 0, 0.1000000015), 0 8.9rem 8.9rem rgba(0, 0, 0, 0.0900000036), 0 20.1rem 12.1rem rgba(0, 0, 0, 0.0500000007), 0 35.8rem 14.3rem rgba(0, 0, 0, 0.0099999998), 0 55.9rem 15.7rem rgba(0, 0, 0, 0);
 }
+
 .banner-content {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
 }
+
 .experience {
   margin-right: 5.7rem;
   height: 48%;
@@ -74,6 +84,7 @@ p {
   align-items: flex-start;
   flex-shrink: 0;
 }
+
 .sub-experience {
   margin: 0rem 1.5rem 0rem 4rem;
   font-size: 3rem;
@@ -84,6 +95,7 @@ p {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 .description {
   margin: 0.4rem 0rem 0rem 0.1rem;
   max-width: 11.5rem;
@@ -94,6 +106,7 @@ p {
   font-family: Poppins, 'Source Sans Pro';
   flex-shrink: 0;
 }
+
 .destination {
   margin-right: 5rem;
   height: 40%;
@@ -101,6 +114,7 @@ p {
   align-items: center;
   flex-shrink: 0;
 }
+
 .sub-destination {
   margin: 0rem 1.5rem 0rem -4rem;
   font-size: 3rem;
@@ -111,6 +125,7 @@ p {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 .destination-collab {
   max-width: 12.7rem;
   font-size: 1.5rem;
@@ -120,12 +135,14 @@ p {
   font-family: Poppins, 'Source Sans Pro';
   flex-shrink: 0;
 }
+
 .tourist-dest {
   height: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
+
 .sub-tourist {
   margin: 0rem 1.5rem 0rem -2rem;
   font-size: 3rem;
@@ -136,6 +153,7 @@ p {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 .tourist-destination {
   max-width: 12.7rem;
   font-size: 1.5rem;
@@ -144,4 +162,334 @@ p {
   color: #686767;
   font-family: Poppins, 'Source Sans Pro';
   flex-shrink: 0;
+}
+
+.about-container {
+  box-sizing: border-box;
+  padding: 1rem 7.463rem 12.769rem 7.5rem;
+  width: 100%;
+  position: relative;
+  top: -27rem;
+  row-gap: 12.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.about-us {
+  margin-right: 0.0371rem;
+  width: calc(100% - 0.0371rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.about-elements {
+  width: 100%;
+  height: 35.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.about-title {
+  margin: 6.9rem 13.4rem 14.3rem 0rem;
+  height: calc(100% - 21.2rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.title-a {
+  margin-bottom: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #056839;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.subtitle-about {
+  max-width: 41.6rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.3325;
+  color: #000000;
+  font-family: Playfair Display, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.description-about {
+  box-sizing: border-box;
+  margin-left: -20rem;
+  padding: 7.6rem 6.5rem 7.518rem 6.6rem;
+  width: 74rem;
+  height: 30rem;
+  background-color: #f6f8ce;
+  flex-shrink: 0;
+}
+
+.text-description {
+  margin-bottom: 1.6rem;
+  max-width: 50.9rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  color: #686767;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.text-about {
+  width: 65%;
+  display: flex;
+  margin: -3rem rem;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.button {
+  background-color: #056839; /* Green */
+  border-radius: 2rem;
+  width: 10rem;
+  font-family: Poppins, 'Source Sans Pro';
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: -2px 2px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: transparent;
+  color: #056839;
+  border: 2px solid #056839;
+}
+
+.btn:hover {
+  background-color: #056839;
+  color: white;
+}
+
+
+//.images-container {
+//  display: flex;
+//  justify-content: space-between;
+//}
+//
+//
+//.images-container img {
+//  margin: -2.8rem;
+//  width: 33.33%;
+//  height: auto;
+//}
+//
+//.images-container {
+//  display: flex;
+//  justify-content: space-between;
+//  gap: 20px;
+//}
+//
+//.images-container img {
+//  width: 33.33%;
+//  height: auto;
+//  position: relative;
+//}
+//
+//.images-container img:hover::before {
+//  content: "";
+//  position: absolute;
+//  top: 0;
+//  left: 0;
+//  width: 100%;
+//  height: 100%;
+//  background-color: rgba(0, 0, 0, 0.5);
+//  transition: all 0.3s ease;
+//}
+//
+//.images-container img:hover {
+//  transform: scale(1.1);
+//  z-index: 1;
+//}
+//
+//.images-container img:hover::after {
+//  content: attr(alt);
+//  position: absolute;
+//  top: 50%;
+//  left: 50%;
+//  transform: translate(-50%, -50%);
+//  color: white;
+//  font-size: 1.2rem;
+//  font-weight: bold;
+//  text-align: center;
+//  z-index: 2;
+//}
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.image-container {
+  position: relative;
+  width: 33.33%;
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.6);
+  border-radius: 0.5px;
+
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5px;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  height: 25%;
+  background-color: #ffffff;
+  color: black;
+  font-size: 13px;
+  padding: 10px;
+  color: #686767;
+  font-family: Poppins;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.image-container:hover .overlay {
+  opacity: 0.5;
+}
+
+.image-container:hover .text {
+  opacity: 1;
+}
+
+.choose-container {
+  box-sizing: border-box;
+  padding: 1rem 7.463rem 12.769rem 7.5rem;
+  width: 100%;
+  position: relative;
+  top: -30rem;
+  row-gap: 12.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.choose-us {
+  margin-right: 0.0371rem;
+  width: calc(100% - 0.0371rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.choose-elements {
+  width: 100%;
+  height: 10.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.choose-title {
+  margin: 6.9rem 13.4rem 14.3rem 0rem;
+  height: calc(100% - 21.2rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.ch-title {
+  margin-bottom: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #056839;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.subtitle-choose {
+  max-width: 38.6rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.3325;
+  color: #000000;
+  font-family: Playfair Display, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.description-choose {
+  margin-top: 34rem;
+  position: absolute;
+  max-width: 35rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3625;
+  color: #686767;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.button-choose {
+  background-color: #056839; /* Green */
+  position: absolute;
+  border-radius: 2rem;
+  width: 10rem;
+  font-family: Poppins, 'Source Sans Pro';
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 49rem;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.choose {
+  background-color: transparent;
+  color: #056839;
+  border: 2px solid #056839;
+}
+
+.choose:hover {
+  background-color: #056839;
+  color: white;
+}
+
+.choose-img {
+  float: right;
+  width: 42.5rem;
+  height: 33rem;
+  margin: -25rem 0 0 37rem;
 }

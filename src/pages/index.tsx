@@ -1,5 +1,7 @@
 import Navigation from "@/pages/components/common/Navigation";
+import About from "@/pages/components/common/About";
 import { FaChevronRight } from "react-icons/fa";
+import ChooseUs from "@/pages/components/common/ChooseUs";
 export default function Home() {
   return (
       <div className={"main-container"}>
@@ -37,6 +39,8 @@ export default function Home() {
                   </div>
               </div>
           </div>
+          <About/>
+          <ChooseUs/>
       </div>
   )
 }
