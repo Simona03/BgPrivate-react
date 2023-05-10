@@ -55,7 +55,7 @@ const About = (props: any) => {
                     <div className="image-container">
                         <img  src={"images/palms.jpg"} alt="Image 3"/>
                             <div className="overlay"></div>
-                            <div className="text">Thasos or Thassos is a Greek island in the North Aegean Sea. It is the northernmost major Greek island, and 12th largest by area. The island has an area of 380 km² and a population of about 13,000</div>
+                            <div className="text">Thasos or Thassos is a Greek island in the North Aegean Sea. It is the northernmost major Greek island, and 12th largest by area. The island has an area of 380 km² and...</div>
                     </div>
                 </div>
             </div>
