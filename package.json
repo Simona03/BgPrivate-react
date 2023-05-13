@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mobile": "HOST=192.168.217.135 npm run dev"
   },
   "dependencies": {
     "@types/node": "18.16.3",

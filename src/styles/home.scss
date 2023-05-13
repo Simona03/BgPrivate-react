@@ -1,9 +1,5 @@
 @import "constants";
 
-p {
-  font-family: $base_font_text;
-}
-
 .button-circle {
   background-color: #FFFFFF;
   border-radius: 50%;
@@ -279,59 +275,6 @@ p {
   color: white;
 }
 
-
-//.images-container {
-//  display: flex;
-//  justify-content: space-between;
-//}
-//
-//
-//.images-container img {
-//  margin: -2.8rem;
-//  width: 33.33%;
-//  height: auto;
-//}
-//
-//.images-container {
-//  display: flex;
-//  justify-content: space-between;
-//  gap: 20px;
-//}
-//
-//.images-container img {
-//  width: 33.33%;
-//  height: auto;
-//  position: relative;
-//}
-//
-//.images-container img:hover::before {
-//  content: "";
-//  position: absolute;
-//  top: 0;
-//  left: 0;
-//  width: 100%;
-//  height: 100%;
-//  background-color: rgba(0, 0, 0, 0.5);
-//  transition: all 0.3s ease;
-//}
-//
-//.images-container img:hover {
-//  transform: scale(1.1);
-//  z-index: 1;
-//}
-//
-//.images-container img:hover::after {
-//  content: attr(alt);
-//  position: absolute;
-//  top: 50%;
-//  left: 50%;
-//  transform: translate(-50%, -50%);
-//  color: white;
-//  font-size: 1.2rem;
-//  font-weight: bold;
-//  text-align: center;
-//  z-index: 2;
-//}
 .image-row {
   display: flex;
   justify-content: space-between;
@@ -343,7 +286,6 @@ p {
   width: 33.33%;
   box-shadow: 0 6px 20px 0 rgba(0,0,0,0.6);
   border-radius: 0.5px;
-
 }
 
 .image-container img {
@@ -402,7 +344,6 @@ p {
 }
 
 .choose-us {
-  margin-right: 0.0371rem;
   width: calc(100% - 0.0371rem);
   align-items: center;
   display: flex;
@@ -673,7 +614,6 @@ p {
   width: 33.33%;
   box-shadow: 0 6px 20px 0 rgba(0,0,0,0.6);
   border-radius: 0.5px;
-
 }
 
 .image-blog-container img {

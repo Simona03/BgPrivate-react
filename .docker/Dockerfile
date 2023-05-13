@@ -11,11 +11,11 @@ COPY package*.json ./
 COPY ../src ./src
 COPY ../public ./public
 COPY ../node_modules  ./node_modules
+COPY ../.next ./.next
 
 # Install node packages, install serve, build the app, and remove dependencies at the end
-RUN npm install \
-#    && npm install -g serve \
-    && npm run build
+RUN npm run build
+
 
 # Start the app using serve command
-CMD [ "npm", "run","start" ]
+CMD [ "npm", "run","dev" ]

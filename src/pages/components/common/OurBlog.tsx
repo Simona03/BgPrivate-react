@@ -19,27 +19,6 @@ const OurBlog = (props: any) => {
                         </div>
                     </div>
                 </div>
-                {/*    <div className={"images-container"}>*/}
-                {/*        /!*<div className={"container"}>*!/*/}
-                {/*            <img src={"images/people1.jpg"} className={"image"}/>*/}
-                {/*            /!*<div className={"overlay"}>*!/*/}
-                {/*            /!*    <div className={"image-text"}>Hello World</div>*!/*/}
-                {/*            /!*</div>*!/*/}
-                {/*        /!*</div>*!/*/}
-                {/*        /!*<div className={"container"}>*!/*/}
-                {/*            <img src={"images/venice.jpg"} className={"image"}/>*/}
-                {/*            /!*<div className={"overlay"}>*!/*/}
-                {/*            /!*    <div className={"image-text"}>Hello World</div>*!/*/}
-                {/*            /!*</div>*!/*/}
-                {/*        /!*</div>*!/*/}
-                {/*        /!*<div className={"container"}>*!/*/}
-                {/*            <img src={"images/palms.jpg"} className={"image"}/>*/}
-                {/*            /!*<div className={"overlay"}>*!/*/}
-                {/*            /!*    <div className={"image-text"}>Hello World</div>*!/*/}
-                {/*            /!*</div>*!/*/}
-                {/*        /!*</div>*!/*/}
-                {/*</div>*/}
-
                 <div className="image-blog-row">
                     <div className="image-blog-container">
                         <img src="images/img kovachevitsa.png" alt="Image 1" />

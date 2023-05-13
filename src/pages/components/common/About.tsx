@@ -20,42 +20,30 @@ const About = (props: any) => {
                         </div>
                     </div>
                 </div>
-                {/*    <div className={"images-container"}>*/}
-                {/*        /!*<div className={"container"}>*!/*/}
-                {/*            <img src={"images/people1.jpg"} className={"image"}/>*/}
-                {/*            /!*<div className={"overlay"}>*!/*/}
-                {/*            /!*    <div className={"image-text"}>Hello World</div>*!/*/}
-                {/*            /!*</div>*!/*/}
-                {/*        /!*</div>*!/*/}
-                {/*        /!*<div className={"container"}>*!/*/}
-                {/*            <img src={"images/venice.jpg"} className={"image"}/>*/}
-                {/*            /!*<div className={"overlay"}>*!/*/}
-                {/*            /!*    <div className={"image-text"}>Hello World</div>*!/*/}
-                {/*            /!*</div>*!/*/}
-                {/*        /!*</div>*!/*/}
-                {/*        /!*<div className={"container"}>*!/*/}
-                {/*            <img src={"images/palms.jpg"} className={"image"}/>*/}
-                {/*            /!*<div className={"overlay"}>*!/*/}
-                {/*            /!*    <div className={"image-text"}>Hello World</div>*!/*/}
-                {/*            /!*</div>*!/*/}
-                {/*        /!*</div>*!/*/}
-                {/*</div>*/}
 
                 <div className="image-row">
                     <div className="image-container">
                         <img src={"images/people1.jpg"} alt="Image 1"/>
-                            <div className="overlay"></div>
-                            <div className="text">It has become a popular tourist destination for rural and mountain tourism in recent years. Located on the steep slopes of the Western Rhodopes</div>
+                        <div className="overlay"></div>
+                        <div className="text">It has become a popular tourist destination for rural and mountain tourism
+                            in recent years. Located on the steep slopes of the Western Rhodopes
+                        </div>
                     </div>
                     <div className="image-container">
                         <img src={"images/venice.jpg"} alt="Image 2"/>
-                            <div className="overlay"></div>
-                            <div className="text">Venice is a city in northeastern Italy and the capital of the Veneto region. It is built on a group of 118 small islands that are separated by canals and linked by over 400 bridges</div>
+                        <div className="overlay"></div>
+                        <div className="text">Venice is a city in northeastern Italy and the capital of the Veneto
+                            region. It is built on a group of 118 small islands that are separated by canals and linked
+                            by over 400 bridges
+                        </div>
                     </div>
                     <div className="image-container">
-                        <img  src={"images/palms.jpg"} alt="Image 3"/>
-                            <div className="overlay"></div>
-                            <div className="text">Thasos or Thassos is a Greek island in the North Aegean Sea. It is the northernmost major Greek island, and 12th largest by area. The island has an area of 380 km² and...</div>
+                        <img src={"images/palms.jpg"} alt="Image 3"/>
+                        <div className="overlay"></div>
+                        <div className="text">Thasos or Thassos is a Greek island in the North Aegean Sea. It is the
+                            northernmost major Greek island, and 12th largest by area. The island has an area of 380 km²
+                            and...
+                        </div>
                     </div>
                 </div>
             </div>

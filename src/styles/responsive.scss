@@ -1,119 +1,206 @@
-/* For devices with a width up to 767px */
-@media only screen and (max-width: 767px) {
-  .header-container {
-    height: 50%;
-    padding: 2.3rem 2.5rem 13.7rem 2.5rem;
-  }
+///* Extra small devices (phones, up to 575.98px) */
+//@media only screen and (max-width: 575.98px) {
+//  /* Your CSS styles for extra small devices go here */
+//}
+//
+///* Small devices (landscape phones, 576px to 767.98px) */
+//@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+//  /* Your CSS styles for small devices go here */
+//}
+//
+///* Medium devices (tablets, 768px to 991.98px) */
+//@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+//  .logo {
+//    margin-right: 5rem;
+//    width: 14.6rem;
+//    height: 10rem;
+//    object-fit: cover;
+//    vertical-align: top;
+//  }
+//}
 
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+
+  // Header
   .logo {
-    margin-right: 5%;
-    width: 10rem;
-    height: 7rem;
-  }
-
-  .navigation-bnt {
-    padding-right: 20px;
-    font-size: 1.2rem;
-  }
-
-  .navigation {
-    margin-bottom: 5rem;
-    flex-direction: column;
-  }
-
-  .header-container {
-    padding: 2rem 2rem 15rem 2rem;
-    height: 50%;
-  }
-
-
-}
-
-/* For devices with a width between 768px and 991px */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .home-page {
-    height: 60rem;
-  }
-
-  .header-container {
-    height: 60%;
-    padding: 3.5rem 4.5rem 14.5rem 4.5rem;
-  }
-
-  .logo {
-    margin-right: 10%;
-    width: 12rem;
-    height: 8.5rem;
-  }
-
-  .navigation-bnt {
-    padding-right: 30px;
-    font-size: 1.4rem;
-  }
-
-  .navigation {
-    margin-bottom: 6rem;
-  }
-
-}
-
-/* For devices with a width between 992px and 1199px */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-
-  .navigation-bnt {
-    margin-right: 40px;
-    font-size: 1.6rem;
-  }
-
-  .navigation {
-    margin-bottom: 8.4rem;
-    display: flex;
-    align-items: center;
-    font-family: "Poppins";
-  }
-
-  .navigation-bnt.active::after {
-    content: '';
-    position: absolute;
-    width: 70%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-
-  .navigation-bnt.active:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-}
-
-/* For devices with a width of 1200px and above */
-@media only screen and (min-width: 1200px) {
-  .home-page {
-    height: 100rem;
-  }
-
-  .header-container {
-    height: 80%;
-    padding: 5.8rem 10rem 34.6rem 10rem;
-  }
-
-  .navigation {
-    margin-bottom: 8.4rem;
-  }
-
-  .logo {
-    margin-right: 18rem;
-    width: 14.6rem;
+    margin-right: 5rem;
+    width: 15rem;
     height: 10rem;
   }
 
-  .navigation-bnt {
-    padding-right: 40px;
-    font-size: 1.6rem;
+  .title {
+    margin-top: -3.5rem;
+    font-size: 4.4rem;
+    font-weight: 800;
+  }
+
+  .transfers-btn {
+    margin-top: 5%;
+  }
+
+  .banner-container {
+    width: 65rem;
+    height: 8.5rem;
+    left: 8rem;
+    top: 48.3rem;
+  }
+
+  // About us
+  .about-elements {
+    height: 36rem;
+  }
+
+  .description-about {
+    padding: 5rem 5rem 0rem 5rem;
+    width: 50rem;
+  }
+
+  .btn {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #056839;
+    border: 2px solid #056839;
+  }
+
+  .image-row {
+    gap: 12px;
+  }
+
+  .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 94%;
+    height: 45%;
+  }
+
+  // Choose us
+  .choose-us {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+
+  .ch-title {
+    margin-bottom:-2rem;
+    font-size: 1.3rem;
+  }
+
+  .choose-img {
+    float: right;
+    width: 46rem;
+    height: 33rem;
+    margin: -23rem 0 0 43rem;
+  }
+
+  .subtitle-choose {
+    max-width: 28rem;
+    font-size: 1.8rem;
+  }
+
+  .description-choose {
+    margin-top: 25rem;
+    max-width: 26rem;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .button-choose {
+    margin-top: 45rem;
+  }
+
+
+  // Blog
+  .description-blog {
+    padding: 4rem 5rem 0rem 5rem;
+    width: 50rem;
+  }
+
+  .blog-title {
+    margin: 5rem 15rem 14.3rem 0rem;
+  }
+
+  .button-blog {
+    margin-top: 1.5rem;
+  }
+
+  .image-blog-container {
+    position: relative;
+    width: 33.33%;
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.6);
+    border-radius: 0.5px;
+  }
+
+  .image-blog-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5px;
+  }
+
+  .blog-date {
+    margin-top: 1rem;
+  }
+
+//  Footer
+  .footer-logo {
+    margin: 0rem 10rem 0.5rem 0rem;
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .txt-contact {
+    margin: 0rem 10rem 0.5rem 0rem;
+    margin-top: auto;
+  }
+
+  .company-name {
+    margin-left: 30rem;
+  }
+
+  .line {
+    width: 68rem;
+  }
+}
+
+// Laptop
+@media only screen and (min-width: 1380px) and (max-width: 1800px) {
+  .logo {
+    margin: 0 10rem 0 0rem;
+    width: 15rem;
+    height: 10rem;
+  }
+  .title {
+    margin-top: -2rem;
+    font-size: 4rem;
+  }
+
+  .transfers-btn {
+    margin-top: -5%;
+  }
+
+  .banner-container {
+    width: 65rem;
+    height: 8.5rem;
+    left: 11rem;
+    top: 48.3rem;
+  }
+
+  .description-about {
+    padding: 5rem 5rem 0rem 5rem;
+    width: 50rem;
+  }
+
+
+}
+
+// TV
+@media only screen and (min-width: 1900px) {
+  .logo {
+    margin-right: 12rem;
+    width: 25rem;
+    height: 20rem;
   }
 
   .navigation {
@@ -122,21 +209,6 @@
     align-items: center;
     font-family: Poppins;
   }
-
-  .navigation-bnt.active::after {
-    content: '';
-    position: absolute;
-    width: 70%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-
-  .navigation-bnt.active:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
 }
+
+
