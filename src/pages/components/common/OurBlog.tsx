@@ -3,11 +3,11 @@ const OurBlog = (props: any) => {
         <div className={"blog-container"}>
             <div className={"our-blog"}>
                 <div className={"blog-elements"}>
-                    <div className={"blog-title"}>
+                    <div className={"blog-title slide-right"}>
                         <p className={"title-b"}>OUR BLOG</p>
                         <p className={"subtitle-blog"}>Adventure Travel Stories From Our Blog</p>
                     </div>
-                    <div className={"description-blog"}>
+                    <div className={"description-blog slide-left"}>
                         <div className={"text-blog"}>
                             <p className={"textblog-description"}>Stories about inspirational destinations and adventures with us.
                                 It has become a popular tourist destination for rural and mountain tourism in recent years.

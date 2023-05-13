@@ -1,6 +1,6 @@
 const ChooseUs = (props: any) => {
     return (
-        <div className={"choose-container"}>
+        <div className={"choose-container slide-up"}>
             <div className={"choose-us"}>
                 <div className={"choose-elements"}>
                     <div className={"choose-title"}>
@@ -15,7 +15,7 @@ const ChooseUs = (props: any) => {
                     <button className={"button-choose choose"}>Read more</button>
                 </div>
             </div>
-            <img className={"choose-img"} src={"images/rectangle-2416.png"}/>
+            <img className={"choose-img slide-right"} src={"images/rectangle-2416.png"}/>
         </div>
     );
 

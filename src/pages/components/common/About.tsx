@@ -1,6 +1,6 @@
 const About = (props: any) => {
     return (
-        <div className={"about-container"}>
+        <div className={"about-container slide-up "}>
             <div className={"about-us"}>
                 <div className={"about-elements"}>
                     <div className={"about-title"}>
