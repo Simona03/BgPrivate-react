@@ -19,6 +19,7 @@
 //  }
 //}
 
+// Tablet
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
 
   // Header
@@ -41,7 +42,7 @@
   .banner-container {
     width: 65rem;
     height: 8.5rem;
-    left: 8rem;
+    left: 7.1rem;
     top: 48.3rem;
   }
 
@@ -83,7 +84,7 @@
   }
 
   .ch-title {
-    margin-bottom:-2rem;
+    margin-bottom: -2rem;
     font-size: 1.3rem;
   }
 
@@ -128,7 +129,7 @@
   .image-blog-container {
     position: relative;
     width: 33.33%;
-    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.6);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
     border-radius: 0.5px;
   }
 
@@ -143,7 +144,7 @@
     margin-top: 1rem;
   }
 
-//  Footer
+  //  Footer
   .footer-logo {
     margin: 0rem 10rem 0.5rem 0rem;
     width: 15rem;
@@ -166,33 +167,155 @@
 
 // Laptop
 @media only screen and (min-width: 1380px) and (max-width: 1800px) {
+
+  // Header
   .logo {
-    margin: 0 10rem 0 0rem;
-    width: 15rem;
-    height: 10rem;
+    margin-right: 10rem;
+    width: 17rem;
+    height: 12rem;
   }
+
   .title {
-    margin-top: -2rem;
-    font-size: 4rem;
+    margin-top: -3.5rem;
+    font-size: 4.5rem;
+    font-weight: 800;
   }
 
   .transfers-btn {
-    margin-top: -5%;
+    margin-top: -3%;
   }
 
   .banner-container {
     width: 65rem;
     height: 8.5rem;
-    left: 11rem;
+    left: 14.6rem;
     top: 48.3rem;
   }
 
+  // About us
+  .about-elements {
+    height: 35rem;
+  }
+
   .description-about {
-    padding: 5rem 5rem 0rem 5rem;
-    width: 50rem;
+    margin-left: -20rem;
+    padding: 5rem 6.5rem 7.518rem 6.6rem;
+    width: 70rem;
+  }
+
+  .btn {
+    margin-top: 2rem;
+    background-color: transparent;
+    color: #056839;
+    border: 2px solid #056839;
+  }
+
+  .image-row {
+    width: 85rem;
+    gap: 20px;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 95.5%;
+    height: 30%;
+  }
+
+  // Choose us
+  .choose-us {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+
+  .ch-title {
+    margin-bottom: -2rem;
+    font-size: 1.5rem;
+  }
+
+  .choose-img {
+    float: right;
+    width: 46rem;
+    height: 33rem;
+    margin: -23rem 0 0 43rem;
+  }
+
+  .subtitle-choose {
+    max-width: 28rem;
+    font-size: 1.9rem;
+  }
+
+  .description-choose {
+    margin-top: 30rem;
+    max-width: 26rem;
+    font-size: 1.3rem;
+    text-align: left;
+  }
+
+  .button-choose {
+    margin-top: 53rem;
   }
 
 
+  // Blog
+  .description-blog {
+    padding: 4rem 5rem 0rem 5rem;
+    width: 70rem;
+  }
+
+  .blog-title {
+    margin: 5rem 15rem 14.3rem 0rem;
+  }
+
+  .button-blog {
+    margin-top: 1.5rem;
+  }
+
+  .image-blog-container {
+    position: relative;
+    width: 33.33%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 0.5px;
+  }
+
+  .image-blog-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5px;
+  }
+
+  .blog-date {
+    margin-top: 1rem;
+  }
+
+  //  Footer
+  .footer-logo {
+    margin: 0rem 15rem 0.5rem 0rem;
+    width: 17rem;
+    height: 12rem;
+  }
+
+  .txt-contact {
+    margin: 0rem 15rem 0.5rem 0rem;
+    margin-top: auto;
+  }
+
+  .company-name {
+    margin-left: 36rem;
+  }
+
+  .line {
+    width: 80rem;
+  }
 }
 
 // TV
